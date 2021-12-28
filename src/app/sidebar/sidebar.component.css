@@ -3,6 +3,10 @@
     padding-right: .5rem;
     display: block
 }
+
+h3{
+    color: white;
+}
 .title{
     font-weight: 600;
 }
@@ -24,8 +28,9 @@
     object-fit: cover;
 }
 .divider{
-    border-top: solid 1px #ececec;
+    border-top: solid 0.5px #ececec;
 }
 .title-inside{
     font-weight: 600;
+    color: white;
 }

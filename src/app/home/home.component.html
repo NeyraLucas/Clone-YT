@@ -1,0 +1,8 @@
+<app-header></app-header>
+
+
+<div class="grid">
+  <app-card [routerLink]="['/', 'post',card?.id]" [dataEntrante]="card" *ngFor="let card of cards"></app-card>
+</div>
+
+<app-sidebar></app-sidebar>

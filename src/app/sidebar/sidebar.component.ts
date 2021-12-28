@@ -11,6 +11,7 @@ export class SidebarComponent implements OnInit {
   constructor(private servicioFavorito: ServicioDeFavoritosService) { }
   public listdeVideos:Array<any> = [];
   ngOnInit(): void {
+    //este va a recibir
     this.servicioFavorito.disparadorDeFavoritos.subscribe(data =>{
       console.log('recibiendo data',data);
       this.listdeVideos.push(data);
